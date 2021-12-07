@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title>WEB</title>
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/kotletukas/kotletukas.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<h1 style="background-color:Violet;">MYLIM KAKE MAKE</h1>
+<p style="background-color:LightGray;">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<a href="https://www.kakemake.lt/">APLANKYK KAKA MAKA</a>
 
-### Markdown
+<h1 style="background-color:Violet;">Skaičiuok su Kake make</h1>
+<p style="background-color:LightGray;">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<input id="a" type="number" value="0" style="height:100px; font-size:80px:" oninput="sudek();"> + <input id="b" type="number" value="0" style="height:100px; font-size:80px:"  oninput="sudek();"> = <h1 id="ats"> </h1>
+<script>
+var a = document.getElementById("a");
+var b = document.getElementById("b");
+var ats = document.getElementById("ats");
+function sudek(){
+ats.innerHTML = parseInt(a.value) + parseInt(b.value);
+ats.style.fontSize = parseFloat(a.value) + parseFloat(b.value) + 'px';
+}
+</script>
+<img src="o.jpg" alt="kakes makes draugas:">
+<img src="i.jpg" >
 
-```markdown
-Syntax highlighted code block
+<video width="550" height="460" controls>
+  <source src="video.mp4" type="video/mp4">
+</video>
 
-# Header 1
-## Header 2
-### Header 3
+<img src="WEB2\CAT.jpg">
 
-- Bulleted
-- List
+<a href="p/vaikas.html"></a>
 
-1. Numbered
-2. List
+<p>Daugiau</p>
+<a href="it2.html">Varlytės</a>
 
-**Bold** and _Italic_ and `Code` text
+<p>juodas kvadratas:</p>
+<a href="naujas.html">Apskritimų braižymas</a>
 
-[Link](url) and ![Image](src)
-```
+<p>braižymas:</p>
+<a href="it4.html">Apskritimų braižymas</a>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kotletukas/kotletukas.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
